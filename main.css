@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.f-s-12 {
+  font-size: 12px;
+}
+
+.f.s-14 {
+  font-size: 14px;
+}
+
+.f.s-16 {
+  font-size: 16px;
+}
+
+.f-s-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859 !important;
+}
+
+.bg-primary {
+  background: #003859 !important;
+}
+
+.color-secondary {
+  color: #00A5C4;
+}
+
+.bg-secondary {
+  background: #00A5C4 !important;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.bg-yellow {
+  background: #FFD289;
+}
+
+
+
+
+/* Overriden class */
+.navbar {
+  padding: 0 1rem !important;
+}
+
+.py-1-1 {
+  padding-top: 0.05rem !important;
+}
+/*# sourceMappingURL=main.css.map */

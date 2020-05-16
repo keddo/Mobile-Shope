@@ -34,11 +34,11 @@ button:focus {
 }
 
 .color-primary {
-  color: #003859 !important;
+  color: #003859;
 }
 
 .bg-primary {
-  background: #003859 !important;
+  background: #003859;
 }
 
 .color-secondary {
@@ -57,15 +57,30 @@ button:focus {
   background: #FFD289;
 }
 
-
-
-
-/* Overriden class */
-.navbar {
-  padding: 0 1rem !important;
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next,
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  font-size: 35px;
+  color: #003859;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
 }
 
-.py-1-1 {
-  padding-top: 0.05rem !important;
-}
 /*# sourceMappingURL=main.css.map */

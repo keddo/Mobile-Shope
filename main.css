@@ -34,15 +34,15 @@ button:focus {
 }
 
 .color-primary {
-  color: #003859;
+  color: #003859 !important;
 }
 
 .bg-primary {
-  background: #003859;
+  background: #003859 !important;
 }
 
 .color-secondary {
-  color: #00A5C4;
+  color: #00A5C4 !important;
 }
 
 .bg-secondary {
@@ -50,11 +50,11 @@ button:focus {
 }
 
 .color-yellow {
-  color: #FFD289;
+  color: #FFD289 !important;
 }
 
 .bg-yellow {
-  background: #FFD289;
+  background: #FFD289 !important;
 }
 
 #top-sale .owl-carousel .item .product a {
@@ -81,6 +81,18 @@ button:focus {
 }
 #top-sale .owl-carousel .owl-nav button.owl-next {
   right: 0;
+}
+
+#special-price .grid .item {
+  width: 200px !important;
+}
+#special-price .container #filters {
+  margin-left: 70% !important;
+}
+#special-price .container #filters .btn-secondary {
+  background-color: transparent;
+  color: #555;
+  border-color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */

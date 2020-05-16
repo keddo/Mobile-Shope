@@ -15,5 +15,17 @@ $(document).ready(function(){
             600: {items: 3},
             1000: {item: 5}
         }
+    });
+
+
+    //Isotope filer
+    var $grid = $('.grid').isotope({
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows'
+    });
+
+    $('.btn-group').on('click', 'button', function(){
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({filter: filterValue});
     })
 });

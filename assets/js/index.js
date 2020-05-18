@@ -40,4 +40,14 @@ $(document).ready(function(){
             1000: {item: 5}
         }
     });
+
+    $('#blogs .owl-carousel').owlCarousel({
+        loop: true,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: { items: 1},
+            600: {items: 3}
+        }
+    });
 });

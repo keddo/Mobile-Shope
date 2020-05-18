@@ -94,5 +94,9 @@ button:focus {
   color: #555;
   border-color: transparent;
 }
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
 
 /*# sourceMappingURL=main.css.map */

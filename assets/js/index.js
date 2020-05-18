@@ -50,4 +50,29 @@ $(document).ready(function(){
             600: {items: 3}
         }
     });
+
+
+    // product section
+
+    let qtyup = $(".qty .qty-up");
+    let qty_down = $('.qty .qty-down');
+    let input = $(".qty .qty-input");
+
+    qtyup.click(function(e){
+        e.preventDefault();
+        if(input.val() >= 1 && input.val() <= 9){
+            input.val(function(oldval){
+                return ++oldval;
+            });
+        }
+    });
+
+    qty_down.click(function(e){
+        e.preventDefault();
+        if(input.val() > 1 && input.val() < 9){
+            input.val(function(i, oldval){
+                return --oldval;
+            });
+        }
+    });
 });

@@ -6,31 +6,31 @@ button:focus {
 }
 
 .font-baloo {
-  font-family: "Baloo Thambi 2", cursive;
+  font-family: "Baloo Thambi 2", cursive !important;
 }
 
 .font-rale {
-  font-family: "Raleway", cursive;
+  font-family: "Raleway", cursive !important;
 }
 
 .font-rubik {
-  font-family: "Rubik", cursive;
+  font-family: "Rubik", cursive !important;
 }
 
 .f-s-12 {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
-.f.s-14 {
-  font-size: 14px;
+.f-s-14 {
+  font-size: 14px !important;
 }
 
-.f.s-16 {
-  font-size: 16px;
+.f-s-16 {
+  font-size: 16px !important;
 }
 
 .f-s-20 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .color-primary {
@@ -97,6 +97,10 @@ button:focus {
 #special-price .grid .grid-item {
   margin-right: 1.2rem;
   margin-top: 1rem;
+}
+
+#footer .container .row .d-flex a.text-white-50 {
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 /*# sourceMappingURL=main.css.map */
